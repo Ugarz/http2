@@ -5,13 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
+    "dev": "./node_modules/.bin/nodemon index.js",
     "cert": "bash ./scripts/generate_cert.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "spdy": "^3.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
   }
 }
