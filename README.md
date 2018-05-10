@@ -20,11 +20,11 @@ If I ever get more than a few hours to work on this repo, I might actually try t
 ```bash
 npm i      # Will install dependencies
 npm start  # Will start the server
-npm start  # Will start the server - in dev mod
+npm dev  # Will start the server - in dev mod
 ```
 
-## How to create a server configuration ?
-If you have node installed, you want to run `npm run cert`.
+## What is this configuration anyway ?
+If you have installed the project, you want to run `npm run cert`.
 
 It will create a `configs` folder with three files in it :
 - server.crt : which is the certificate to authenticate
