@@ -30,6 +30,6 @@ spdy
       console.error('woopsy', error)
       return process.exit(1)
     } else {
-      console.log('Listening on port: ' + PORT + '.')
+      console.log(`Listening at https://localhost:${PORT}`)
     }
   })
